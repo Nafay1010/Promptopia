@@ -29,8 +29,8 @@ const page = () => {
             className="signIn_btn"
           >
             {provider.id === 'google' && <FcGoogle className='logoIcon' />}
-              {provider.id === 'github' && <FaGithub className='logoIcon' />}
-              {provider.id === 'facebook' && <FaFacebook className='logoIcon' />}
+              {/* {provider.id === 'github' && <FaGithub className='logoIcon' />}
+              {provider.id === 'facebook' && <FaFacebook className='logoIcon' />} */}
             Sign in with {provider.name}
           </button>
         ))}
